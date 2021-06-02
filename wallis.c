@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
-
+#define MC_PI 3.14159
 float wallis_pi(int);
 
 int main(void) {
