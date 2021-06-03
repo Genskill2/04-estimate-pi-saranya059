@@ -42,13 +42,13 @@ int main(void) {
 float mc_pi(int n)
 {
 int i=1,circle=0,n;
-float x,y,div;
+float x,y,temp;
 for(i=1;i<=n;i++)
   {
     x=random();
     y=random();
     if((x*x)+(y*y)<=1){circle++;}
-temp=circle/n;
+temp=(float)circle/n;
 return 4*temp;
   }
 
