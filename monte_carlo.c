@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
+#define mc_pi 3.14159
 
 float mc_pi(int);
 
