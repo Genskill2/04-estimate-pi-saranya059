@@ -45,8 +45,8 @@ int i=1,circle=0,n;
 float x,y,div;
 for(i=1;i<=n;i++)
   {
-    x=frandom();
-    y=frandom();
+    x=frandom()%2;
+    y=frandom()%2;
     if((x*x)+(y*y)<=1){circle++;}
 temp=circle/n;
 return 4*temp;
