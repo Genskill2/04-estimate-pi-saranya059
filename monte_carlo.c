@@ -48,7 +48,7 @@ for(i=1;i<=n;i++)
     x=frandom();
     y=frandom();
     if((x*x)+(y*y)<=1){circle++;}
-div=circle/n;
-return 4*div;
+temp=circle/n;
+return 4*temp;
   }
 
