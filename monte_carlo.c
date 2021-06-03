@@ -48,7 +48,7 @@ for(i=1;i<n;i++)
   {
     x=frandom();
     y=frandom();
-    if(x*x + y*y <=1){circle++;}
+    if(x*x + y*y <=0.25){circle++;}
 return 4*((float)circle/n);
   }
 
