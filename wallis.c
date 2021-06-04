@@ -31,7 +31,6 @@ for(i=1;i<=n;i++)
  {
   numerator=(4*(i*i));
   denominator=(4*(i*i)-1);
-  temp=numerator/denominator;
   pi*=numerator/denominator;
  }
  return 2*pi;
